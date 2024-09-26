@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
 
-	int a, b;
+	long long int a, b;
 	cin >> a >> b;
 
-	int at;
+	long long int at;
 	at = (a + b) * (a - b);
 
 	cout << at;
